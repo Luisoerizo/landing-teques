@@ -6,7 +6,7 @@ export const Navigation = () => {
     <nav className="w-full fixed bg-black bg-opacity-20 md:bg-opacity-10 backdrop-filter backdrop-blur-sm shadow-sm rounded-sm z-10">
       <div className="container flex items-center justify-center p-5 mx-auto capitalize  ">
         <Link
-          activeClass="active"
+          activeClass="active-link"
           className="text-white mx-1.5 sm:mx-6 cursor-pointer p-1"
           to="home"
           spy={true}
@@ -16,7 +16,7 @@ export const Navigation = () => {
           Inicio
         </Link>
         <Link
-          activeClass="active"
+          activeClass="active-link"
           className="text-white mx-1.5 sm:mx-6 cursor-pointer p-1"
           to="about"
           spy={true}
@@ -27,7 +27,7 @@ export const Navigation = () => {
         </Link>
 
         <Link
-          activeClass="active"
+          activeClass="active-link"
           className="text-white mx-1.5 sm:mx-6 cursor-pointer p-1"
           to="services"
           spy={true}
@@ -38,7 +38,7 @@ export const Navigation = () => {
         </Link>
 
         <Link
-          activeClass="active"
+          activeClass="active-link"
           className="text-white mx-1.5 sm:mx-6 cursor-pointer p-1"
           to="contact"
           spy={true}
